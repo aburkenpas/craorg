@@ -2,12 +2,10 @@
   <Layout>
     <PageHeader title="Prevention Program"/>
     <div class="container page-content">
-      <p>
+      <p class="intro">
         <b>The implementation of a single prevention-based employee training program will be much less costly than what the company will spend on a single incident.</b>
       </p>
-      <p>
-        <b>As an organization, you must determine:</b>
-      </p>
+      <p>As an organization, you must determine:</p>
       <ul>
         <li>
           <span>Will our employees or members be able to identify high-risk behaviors early enough and then report them appropriately?</span>
@@ -30,45 +28,55 @@
       </p>
 
       <div class="gray-section">
-        <p>Four levels of training are available through in-person sessions or video-based, and can be combined, modified and adapted as needed:</p>
-      </div>
-
-      <div class="programs">
-        <div class="program">
-          <h2>Threat Response Team Training</h2>
-          <p>This is an extensive and comprehensive workshop that will educate the designated internal response team leaders as to the basic principles of threat assessment and to lay the foundation for subsequent formation of the company’s threat assessment and response program.</p>
-        </div>
-        <div class="program">
-          <h2>Employee Awareness Training</h2>
-          <p>For employees at all levels. Highlights the company’s policy and expectations of their employees, the designated reporting process and the basic warning signs of potentially high-risk individuals.</p>
-        </div>
-        <div class="program">
-          <h2>Critical Personnel Training</h2>
-          <p>For human resource, security, legal and other managers who have primary responsibility for preventing and managing high-risk incidents.</p>
-        </div>
-        <div class="program">
-          <h2>Management Training</h2>
-          <p>Includes Employee Awareness Training while also addresses the specific responsibilities expected of those who supervise and manage others within the organization.</p>
+        <h1>Four levels of training are available</h1>
+        <p>&nbsp;&nbsp;&nbsp; through in-person sessions or video-based, and can be combined, modified and adapted as needed:</p>
+        <div class="programs">
+          <div class="program">
+            <h3>Threat Response Team Training</h3>
+            <p>This is an extensive and comprehensive workshop that will educate the designated internal response team leaders as to the basic principles of threat assessment and to lay the foundation for subsequent formation of the company’s threat assessment and response program.</p>
+          </div>
+          <div class="program">
+            <h3>Employee Awareness Training</h3>
+            <p>For employees at all levels. Highlights the company’s policy and expectations of their employees, the designated reporting process and the basic warning signs of potentially high-risk individuals.</p>
+          </div>
+          <div class="program">
+            <h3>Critical Personnel Training</h3>
+            <p>For human resource, security, legal and other managers who have primary responsibility for preventing and managing high-risk incidents.</p>
+          </div>
+          <div class="program">
+            <h3>Management Training</h3>
+            <p>Includes Employee Awareness Training while also addresses the specific responsibilities expected of those who supervise and manage others within the organization.</p>
+          </div>
         </div>
       </div>
 
       <div class="other-programs">
-        <h2>Other Workplace Violence Prevention Workshops & Training Programs</h2>
+        <h1>Other Workplace Violence Prevention Workshops & Training Programs</h1>
         <ul>
           <li>
-            <span>Dealing With Difficult People: De-escalation Techniques</span>
+            <span>
+              <b>Dealing With Difficult People: De-escalation Techniques</b>
+            </span>
           </li>
           <li>
-            <span>Resolving Conflicts in Difficult Situations</span>
+            <span>
+              <b>Resolving Conflicts in Difficult Situations</b>
+            </span>
           </li>
           <li>
-            <span>Stress Management</span>
+            <span>
+              <b>Stress Management</b>
+            </span>
           </li>
           <li>
-            <span>Adapting to Organizational Change</span>
+            <span>
+              <b>Adapting to Organizational Change</b>
+            </span>
           </li>
           <li>
-            <span>Post-Trauma Response Training</span>
+            <span>
+              <b>Post-Trauma Response Training</b>
+            </span>
           </li>
         </ul>
       </div>
@@ -93,6 +101,9 @@ export default {
   font-size: $base-font-size;
 }
 
+.intro {
+  font-size: 2.4rem;
+}
 ul {
   color: $shiraz;
 }
@@ -110,9 +121,14 @@ ul li span {
   padding: 3rem 0;
   margin: 6rem 0;
 
+  h1 {
+    color: $shiraz;
+    padding: 0 2rem;
+  }
+
   p {
-    text-align: center;
-    max-width: 80rem;
+    text-align: left;
+    max-width: 0 3rem;
     margin: 0 auto;
   }
 }
@@ -139,6 +155,10 @@ ul li span {
 .other-programs {
   font-size: $base-font-size;
   margin: 6rem 0;
+
+  h1 {
+    color: $shiraz;
+  }
 
   h2 {
     font-size: 3rem;
