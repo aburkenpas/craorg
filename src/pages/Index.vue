@@ -23,8 +23,16 @@
           </div>
         </div>
       </div>
-
       <div class="row">
+        <div class="col-md-12">
+          <div class="image-cta">
+            <g-link to="/e-training-programs">
+              <g-image class="training-image" src="~/assets/images/home/CRA_ETraining_CTA_2.png" alt />
+            </g-link>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: -1px;">
         <div class="col-md-12">
           <div class="hero-bottom">
             <p>Let us help you</p>
@@ -201,6 +209,29 @@ export default {
   }
 }
 
+.image-cta {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: -280px;
+}
+
+.training-image {
+    width: 70%;
+    margin-left: -3px;
+  }
+
+@media only screen and (max-width: 1125px) {
+  /* .training-image {
+    width: 17%;
+  }*/
+
+  .image-cta {
+    margin-top: -225px;
+  } 
+
+}
+
 @media screen and (max-width: 1200px) {
   .hero-copy {
     padding: 15% 9%;
@@ -213,6 +244,12 @@ export default {
       font-size: 3.5rem;
     }
   }
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-cta {
+    margin-top: -195px;
+  } 
 }
 
 @media screen and (max-width: 970px) {
@@ -246,5 +283,10 @@ export default {
   .hero-right {
     padding-left: 15px;
   }
+
+  .image-cta {
+    display: none;
+  }
 }
+
 </style>

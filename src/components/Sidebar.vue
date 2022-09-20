@@ -17,9 +17,12 @@
         <g-image class="book" src="~/assets/images/sidebar-book.jpg" />
       </g-link>
       <br />
+      <div>
+        
+      </div>
       <b>
         <g-link to="/book-sale-information">
-          Aggression in the Workplace: Preventing and Managing High-Risk
+          Order Dr. McElhaney's Book: <br>Aggression in the Workplace: Preventing and Managing High-Risk
           Behavior
         </g-link>
       </b>
