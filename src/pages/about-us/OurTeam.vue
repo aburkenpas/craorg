@@ -109,6 +109,13 @@ export default {
           title: "Consulting Psychologist",
           bio:
             "Besides his work with CRA, Dr. Joseph Konieczny has served as a Consulting Psychologist with Cuyahoga County (Ohio) Juvenile Court Diagnostic Clinic and the District Five Forensic Center in Mansfield, Ohio. As such, he was responsible for conducting psychological evaluations of offenders for the courts, in regards to sentencing, custody and other forensic issues. In addition, he conducts psychological evaluations for the Bureau of Disability Determination in his home State of Ohio."
+        },
+        {
+          image: require("~/assets/images/team/CV_headshot.jpeg"),
+          name: "Dr. Cerise Vablais",
+          title: "Consulting Psychologist",
+          bio:
+            "In addition to her work with CRA, Dr. Cerise Vablais is the Managing Member of Public Safety Psychological Services, PLLC, the largest provider of pre-employment psychological evaluations for first responders in the Pacific Northwest, and also serves as a member of the North Sound Metro SWAT CNT team. She has extensive experience in forensic assessment, having worked for the Maryland Department of Public Safety, and has served as the Director of Mental Health for the Anne Arundel County Detention Center. Dr. Vablais has provided expert witness testimony for matters including competency, criminal responsibility and civil commitment, and currently serves as the Membership Chair of the Psychological Services Section of the International Association of Chiefs of Police."
         }
       ],
       partners: [

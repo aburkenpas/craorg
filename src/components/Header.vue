@@ -25,6 +25,7 @@
         <g-link class="nav-link" to="/our-services/">Our Services</g-link>
         <g-link class="nav-link" to="/our-stories/">Our Stories</g-link>
         <g-link class="nav-link" to="/training-materials/">Training Materials</g-link>
+        <g-link class="nav-link" to="/e-training-programs/">E-Training Programs</g-link>
         <g-link class="nav-link" to="/contact-us/">Contact Us</g-link>
       </nav>
     </header>

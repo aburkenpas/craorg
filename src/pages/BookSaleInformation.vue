@@ -186,51 +186,6 @@
                   </tr>
                 </tbody>
               </table>
-              <table border="0" cellpadding="0" cellspacing="0" style="height: 50px; width: 577px;">
-                <tbody>
-                  <tr>
-                    <th scope="row" width="189">
-                      <div>
-                        <span style="font-size: 16px;">
-                          <span style="font-family: arial,helvetica,sans-serif;">E-Book</span>
-                        </span>
-                      </div>
-                    </th>
-                    <td width="113">&nbsp;</td>
-                    <td width="64">
-                      <div>
-                        <span style="font-size: 16px;">
-                          <span style="font-family: arial,helvetica,sans-serif;">$ 24.95</span>
-                        </span>
-                      </div>
-                    </td>
-                    <td width="211">
-                      <form
-                        action="https://www.paypal.com/cgi-bin/webscr"
-                        method="post"
-                        target="paypal"
-                      >
-                        <input name="cmd" type="hidden" value="_s-xclick" />
-                        <input name="hosted_button_id" type="hidden" value="F7UCN6WAT62TL" />
-                        <input
-                          alt="PayPal - The safer, easier way to pay online!"
-                          border="0"
-                          name="submit"
-                          src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                          type="image"
-                        />
-                        <img
-                          alt
-                          border="0"
-                          height="1"
-                          src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                          width="1"
-                        />
-                      </form>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
             </td>
           </tr>
         </tbody>

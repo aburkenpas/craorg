@@ -27,7 +27,7 @@
                 <g-link to="/contact-us">Contact Us</g-link>
               </li>
             </ul>
-            <p>&copy;2019 Critical Response Associates. All Rights Reserved</p>
+            <p>&copy;2022 Critical Response Associates. All Rights Reserved</p>
           </div>
         </div>
       </div>
